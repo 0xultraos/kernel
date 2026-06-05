@@ -98,6 +98,9 @@ on:
 env:
   TZ: Etc/UTC
 
+permissions:
+  contents: write
+
 jobs:
   setup:
     runs-on: ubuntu-latest
